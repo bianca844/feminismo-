@@ -1,0 +1,259 @@
+
+
+    @font-face {
+        font-family: 'Playfair Display';
+        src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
+    }
+    @font-face {
+        font-family: 'RobotoSlab';
+        src: url('../font/RobotoSlab-VariableFont_wght.ttf');
+    }
+    @font-face {
+        font-family: 'WorkSans';
+        src: url('../font/WorkSans-VariableFont_wght.ttf');
+    }
+    @font-face{
+        font-family: 'Inter';
+        src: url('../font/Inter-VariableFont_slnt,wght.ttf')
+    }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#feminism {
+    width: 80%;
+    text-align: center;
+   
+}
+#feminism h1{
+    width: 65%;
+    text-align: center;
+   
+}
+
+#efeito{
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    
+}
+
+#feminism h1 {
+    font-family: 'Inter';
+    color: rgb(247, 117, 203);
+    font-size:2.5em;
+    transition: color 2.0s;
+    transition: font-size 2.0s;
+    text-align: center;
+    display: flex;
+}
+#feminism h1:hover{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+
+#imgmenu{
+    background-image: url(../img/Imagem-feminismo.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 5px 0px;
+}
+
+#imgmenu2{
+    background-image: url(../img/img2.jpeg);
+    background-size: cover;
+    background-position: center;
+     margin: 5px 0px;
+}
+#imgmenu3{
+    background-image: url(../img/imagem3.jpeg);
+    background-size: cover;
+    background-position: center;
+     margin: 5px 0px;
+}
+#imgmenu4{
+    background-image: url(../img/img4.jpeg);
+    background-size: cover;
+    background-position: center;
+     margin: 5px 0px;
+}
+
+#imgliteratura{
+     background-image: url(../img/mulheresliteratura.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+#harry{
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+
+#feminism h1 {
+    margin: 0 auto;
+}
+
+#boton{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    
+    
+    background-color: #FFF;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center; 
+
+}
+
+#boton a {
+    display: block;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+#mione{
+    display: flex;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+#blabla{
+    display: block;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+#imgnoticia{
+    background-image: url(../img/imgnoticia.jpeg);
+    background-size: cover;
+    background-position: left;
+    margin: 5px 0px;
+}
+
+
+#imgcuriosidade1{
+    background-image: url(../img/imagemabacuriosidades.jpg);
+    background-size: cover;
+    background-position: left;
+    margin: 5px 0px;
+}
+#textsobre{
+    font-family: 'RobotoSlab';
+    color: black;
+    text-align: justify;
+    
+}
+#textindicacao h1{
+    font-family: 'Inter';
+    color: black;
+    text-align: left;
+    font-size: 2.0;
+}
+#textindicacao h2{
+    font-family: 'WorkSans';
+    color: black;
+    text-align: justify;
+ 
+}
+#textindicacao p{
+    font-family: 'RobotoSlab';
+    color: black;
+    text-align: justify;
+    font-size: 1.0 em;
+}
+#textfilmes{
+    font-family: 'RobotoSlab';
+    color: black;
+    text-align: left;
+}
+#textfilmes h1{
+    font-family: 'Inter';
+    color: black;
+    text-align: left;
+    font-size: 2.0;
+}
+#textfilmes h2{
+    font-family: 'WorkSans';
+    color: black;
+    text-align: justify;
+}
+#textfilmes p{
+    font-family: 'RobotoSlab';
+    color: black;
+    text-align: justify;
+    font-size: 1.0 em;
+}
+
+#textnoticias{
+    font-family: 'RobotoSlab';
+    color: black;
+    text-align: left;
+}
+#textnoticias h1{
+    font-family: 'Inter';
+    color: black;
+    text-align: left;
+    font-size: 2.0;
+}
+#textnoticias h2{
+    font-family: 'WorkSans';
+    color: black;
+    text-align: justify;
+}
+#textnoticias p{
+    font-family: 'RobotoSlab';
+    color: black;
+    text-align: justify;
+    font-size: 1.0 em;
+}
+#instagram h1{
+    font-family: 'Inter';
+    color: black;
+    text-align: left;
+    font-size: 2.0;
+}
+#instagram p{
+    font-family: 'RobotoSlab';
+    color: black;
+    text-align: left;
+    font-size: 1.0 em;
+}
+
+body{
+    background-color: rgb(245, 214, 236);
+}
+#boton{
+    width: 100%;
+    background-color: rgb(245, 214, 236);    ;
+    top: 103px;
+    left: -100%;
+    position: absolute;
+    transition: 0.7s left ease;
+}
+.mostrar{
+    left: 0px !important;
+}
